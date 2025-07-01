@@ -1,22 +1,24 @@
-# Laravel-платформа с открытым исходным кодом для курсов
-📚 Простая Laravel-система для управления курсами. Позволяет создавать, редактировать и удалять курсы.
+# CourseManager
 
-## 🔧 Возможности
+📚 Laravel-based open-source platform for managing online courses. Provides a simple interface to create, edit, and delete course records.
 
-- Создание / просмотр / редактирование / удаление курсов | CRUD
-- Загрузка изображений
-- Авторизация с ролями (admin / user)
-- Проверка доступа через middleware
-- Покрытие тестами с использованием Laravel Feature Tests
-- tailwind интерфейс
+## 🔧 Features
 
-## Стек:
+- Create / View / Edit / Delete courses (CRUD)
+- Image upload for courses
+- Role-based authentication (admin / user)
+- Access control via middleware
+- Test coverage using Laravel Feature Tests
+- Tailwind CSS interface
+
+### 🧱 Tech Stack
+
 - Laravel 12
 - Livewire
 - PHPUnit
 - SQLite / PostgreSQL
 
-## 🚀 Установка
+## 🚀 Installation
 
 ```bash
 git clone https://github.com/litvinovpyha/coursemanager.git
@@ -26,4 +28,3 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
-CRUD-приложение на Laravel для управления курсами.
